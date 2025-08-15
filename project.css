@@ -147,6 +147,20 @@ nav {
     border-radius: 15px;
 }
 
+.video-duration {
+    position: relative;
+}
+
+.duration {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 .video-image:hover {
     border-radius: 0px;
     cursor: pointer;
