@@ -138,12 +138,15 @@ nav {
 
 .video-section {
     padding: 40px;
-    display: flex;
-    gap: 10px;
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 10px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .video-image {
-    width: 430px;
+    width: 350px;
     border-radius: 15px;
 }
 
@@ -154,7 +157,7 @@ nav {
 .duration {
     position: absolute;
     bottom: 10%;
-    right: 5%;
+    right: 15%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 5px 10px;
