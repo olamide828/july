@@ -1,0 +1,139 @@
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 20px;
+    /* background-color: white; */
+}
+
+.left-box {
+    display: flex;
+}
+
+.middle-box {
+    display: flex;
+}
+
+.right-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-box ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: "Rubik";
+    font-weight: 450;
+}
+
+ul li a:hover {
+    color: blue;
+}
+
+.input-box {
+    width: 130px;
+    height: 40px;
+}
+
+.input-box input {
+    width: 70%;
+    height: 100%;
+    border-radius: 25px;
+    padding-left: 20px;
+    border: 1px solid gainsboro;
+    outline: none;
+    font-size: 18px;
+}
+
+.input-box input:hover {
+    outline: 1px solid black;
+}
+
+.input-box input:focus {
+    outline: 2px solid blue;
+}
+
+.input-box div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* .magnifying-glass {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 30%;
+} */
+
+
+
+/* .right-box input {
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+    padding-left: 25px;
+}
+
+.right-box input:hover {
+    outline: 1px solid black;
+}
+
+.right-box input:focus {
+    outline: 2px solid blue;
+} */
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hero-content {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 55px;
+    font-family: "Rubik";
+    color: rgb(30, 28, 28);
+    margin-bottom: 3%;
+}
+
+.hero-content span {
+    font-family: "Rubik";
+    font-size: 20px;
+}
+
+.hero-content button {
+    width: 17%;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #0b57da;
+    color: white;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.hero-content button:hover {
+    cursor: pointer;
+}

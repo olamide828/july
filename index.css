@@ -124,13 +124,6 @@ li:hover {
     margin-bottom: 6%;
 }
 
-/* .hero-content button {
-    width: 150px;
-    height: 50px;
-    border-radius: 10px;
-} */
-
-
 .hero-button-container {
     display: flex;
     justify-content: center;
