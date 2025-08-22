@@ -195,6 +195,37 @@ li:hover {
     max-width: 100%;
 }
 
+.youtube-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.youtube-button a {
+    text-decoration: none;
+}
+
+.youtube-button button {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    background-color: paleturquoise;
+    border: none;
+    outline: 2px solid #00A2FF;
+    border-radius: 20px;
+    padding: 12px 24px;
+    transition: background-color 0.3s ease;
+}
+
+.youtube-button button:hover {
+    background-color: #FC5B1A;
+    color: white;
+    outline: 2px solid #ac9b05;
+    cursor: pointer;
+}
+    
+
 @media (max-width: 600px) {
     
     body {
