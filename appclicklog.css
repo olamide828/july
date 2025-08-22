@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-box {
+    flex: 30%;
+}
+
+
+
+.logo-div {
+    padding: 0px 25px 15px;
+}
+
+.appclick-logo {
+    padding: 25px 0px 5px 45px;
+    width: 150px;
+    height: 80px;
+}
+
+.right-box {
+    flex: 70%;
+    width: 439.67px;
+    height: 600;
+    height: 100vh;
+}
+
+.sign-in-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 25px 30px;
+    gap: 15px;
+    margin-top: 0;
+    width: 400;
+}
+
+.left-box label {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color: #444444;
+    margin-bottom: 4%;
+}
+
+
+
+.left-box input {
+    width: 330px;
+    height: 40px;
+    padding-left: 12px;
+    font-size: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    outline: none;
+    padding-right: 20px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    width: 90%;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
+.input-wrapper input {
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.input-wrapper:focus {
+    outline: px solid green;
+}
+
+/* .input-wrapper i {
+    position: absolute;
+    right: 5px;
+    top: 30%;
+    color: #444444;
+} */
+
+.left-box button {
+    width:323px;
+    height: 50px;
+    background-color: #35aa57;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.left-box button:hover {
+    background-color:  #444444;
+    cursor: pointer;
+}
+
+.left-box span a {
+    text-decoration: none;
+    color: #444444;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.appclick-container-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+
+    .container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.appclick-container-image {
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+
+.logo-div {
+    padding: 25px 0px 5px 45px;
+}
+
+}
