@@ -182,6 +182,11 @@ li:hover {
     font-family: "Rubik";
 }
 
+.hero-button-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .hero-image {
     display: flex;
     justify-content: center;
