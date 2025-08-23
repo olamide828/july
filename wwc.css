@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 40px;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    border-bottom: 1px solid black;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.wow-logo {
+    width: 80px;
+}
+
+.right-box {
+    display: flex;
+    align-items: center;
+}
+
+.left-box {
+
+}
+
+.right-box h1 {
+    font-size: 14px;
+    font-family: "Playwrite CA";
+}
+
+.content-below-nav {
+    height: 150px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.content-below-nav ul {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.content-below-nav ul a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Roboto";
+    transition: all 0.3s ease;
+}
+
+.content-below-nav ul a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 600px) {
+    .content-below-nav ul {
+    font-size: 6px;
+    font-weight: bolder;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
