@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo {
+    width: 60px;
+    padding: 15px 30px;
+
+}
+
+.right-box {
+    display: flex;
+
+}
+
+.right-box ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 60px;
+    margin: 0;
+}
+
+.right-box ul li a {
+    text-decoration: none;
+    color: rgb(94, 0, 182);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.right-box ul li a:hover {
+    color: rgb(150, 0, 255);
+}
+
+.left-box {
+    display: flex;
+    align-items: center;
+}
+
+.left-box h1 {
+    font-size: 18px;
+    margin: 0;
+    font-family:  "roboto",sans-serif;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    background-color: rgb(43, 43, 129);
+    position: relative;
+    height: 100%;
+}
+
+.hero-section-image {
+    width: 600px;
+}
+
+.hero-section-h1 {
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    left: 43%;
+}
+
+.hero-section-h1 h1 {
+    margin: 0;
+    font-family: "roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    
+}
+
+.our-value-section {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100px;
+    padding: 12px 40px;
+}
+
+.our-value-section-h1 h1 {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: pink;
+}
+
+.our-value-section p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.right-box h1 {
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+
+
+    .nav-container {
+        display: flex;
+    }
+    .right-box {
+        display: flex;
+    }
+
+    .right-box ul li {
+        display: none;
+    }
+
+    .right-box-h1 {
+        display: flex;
+        gap: 5px;
+    }
+
+    .right-box-h1 h1{
+        display: flex;
+        margin: 0;
+        font-family: "roboto", sans-serif;
+
+    }
+
+    .left-box {
+        display: flex;
+        gap: 150px;
+    }
+
+    .left-box h1 {
+       display: none;
+    }
+
+}
+
+

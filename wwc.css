@@ -69,6 +69,20 @@ nav {
     cursor: pointer;
 }
 
+.hero-section-image-content {
+    background-color: red;
+    width: 700px;
+    height: 300px;
+    padding: 12px 12px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.hero-section-image {
+    width: 50%;
+    height: 60%;
+}
 
 
 @media (max-width: 600px) {
