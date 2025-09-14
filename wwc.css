@@ -74,7 +74,7 @@ nav {
     width: 700px;
     height: 300px;
     padding: 12px 12px;
-    display: flex;
+    display: float;
     align-self: center;
     justify-content: center;
 }
